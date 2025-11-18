@@ -52,3 +52,20 @@ button:hover {
     background-color: #f60;
     color: #fff;
 }
+
+.equation {
+    font-size: 0.8em;
+    color: #a0a0a0;
+    height: 20px;
+}
+
+#history {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 280px;
+    background-color: #fff;
+    border-radius: 5px;
+}
