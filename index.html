@@ -9,10 +9,12 @@
 <body>
     <div class="calculator">
         <div class="display">
+            <div class="equation"></div>
             <input type="text" id="result" disabled>
         </div>
         <div class="buttons">
             <button onclick="clearScreen()">C</button>
+            <button onclick="showHistory()">H</button>
             <button onclick="display.value = display.value.slice(0, -1)">DEL</button>
             <button onclick="appendToDisplay('.')">.</button>
             <button onclick="appendToDisplay('/')">/</button>
@@ -33,6 +35,7 @@
             <button class="equal" onclick="calculate()">=</button>
         </div>
     </div>
+    <div id="history"></div>
     <script src="script.js"></script>
 </body>
 </html>
